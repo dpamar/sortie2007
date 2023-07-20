@@ -58,7 +58,7 @@ function showMessage(msg, keepDisplayed)
   elem.innerHTML = msg;
   elem.style.display = 'inline';
   if(!keepDisplayed)
-	timeout = window.setTimeout(function(){elem.style.display = 'none';}, 2000);
+	timeout = window.setTimeout(function(){elem.style.display = 'none';}, 10000);
 }
 
 function sleep(ms) {
